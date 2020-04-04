@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">COVID-19</string>
+    <string name="client_id">609854933015-nk2d06bu4p9b8q0hqqv4l75dnu7p7qea.apps.googleusercontent.com</string>
+    <string name="client_secret">k9NfLdZqh8FKyo6ikbCwjLEG</string>
+    <string name="server_key">AAAAvx2sbWo:APA91bFirAfHpStH6RnLDJ1jI5roz8dUJDQcFcsNY7OnRFdzhJzgU-kz9RD6mDMTPBCOo1KjGZ2OWHcm9QBkGIsRByjxDptKZ7uPErWy6EvEiWw0lugq_SyJ6tCEFXAqM8DX1SYwJ45q</string>
+    <string name="api_key">AIzaSyD_UByTYXiJHg8Xb9tjG0Chg_7Bn4orhoY</string>
+</resources>

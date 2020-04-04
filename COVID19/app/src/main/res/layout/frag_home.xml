@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+  >
+<ProgressBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/progress_bar"
+    android:visibility="gone"
+    android:layout_gravity="center"
+    />
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/recyclerViewPatient"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id = "@+id/pie_chart"
+        android:layout_width = "match_parent"
+        android:layout_height = "350dp" />
+
+      />
+
+<com.google.android.material.button.MaterialButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/test_call"
+    android:text="Call For Test"
+    android:layout_gravity="center"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bottom_frame_layout"/>
+
+</LinearLayout>
